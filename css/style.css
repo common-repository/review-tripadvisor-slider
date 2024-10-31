@@ -1,0 +1,136 @@
+.gmtri-testimonical-main{
+    background: #bd986b; 
+    display: inline-block;
+    width: 100%;   
+}
+h3.gmtri-heading {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.gmtri_testimonial{
+    
+    text-align: center;
+    
+    position: relative;
+}
+.gmtri_testimonial_inner{
+    background: #fff;
+    padding: 30px 30px 50px;
+    margin: 0 15px 100px;
+    position: relative;
+}
+.gmtri_testimonial_inner:before,
+.gmtri_testimonial_inner:after{
+    content: "";
+    border-top: 40px solid #fff;
+    border-right: 125px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+}
+.gmtri_testimonial_inner:after{
+    border-right: none;
+    border-left: 125px solid transparent;
+    left: auto;
+    right: 0;
+}
+.gmtri_testimonial .icon{
+    display: inline-block;
+    font-size: 80px;
+    color: #bd986b;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+.gmtri_testimonial .gmtri_description{
+    font-size: 15px;
+    color: #777;
+    text-align: left;
+    margin-bottom: 30px;
+    /*opacity: 0.8;*/
+     overflow: hidden;
+   /*max-height: 200px;*/
+}
+.gmtri_testimonial .gmtri_testimonial-content{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.gmtri_testimonial .gmtri_pic{
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px #daad86;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+        height: 90px;
+    width: 90px;
+    background-color: #fff;
+}
+.gmtri_testimonial .gmtri_pic img{
+    width: 100%;
+    height: auto;
+        max-width: 90px;
+
+}
+.gmtri_testimonial .gmtri_title{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0 5px 0;
+    padding: 0;
+    line-height: inherit;
+}
+.gmtri_testimonial .gmtri_post{
+    display: block;
+    font-size: 14px;
+    color: #ffd9b8;
+}
+.gmtri-testimonical-main .owl-dots{
+    margin-top: 0;
+    text-align: center;
+}
+.gmtri-testimonical-main .owl-dots .owl-dot span{
+    width: 32px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #bd986b;
+    margin: 5px;
+    opacity: 1;
+    display: block;
+    border-radius: 5px;
+}
+.gmtri-testimonical-main .owl-dots .owl-dot.active span,
+.gmtri-testimonical-main .owl-dots .owl-dot:hover span{
+    background: #ffd9b8;
+    border-color: #fff;
+}
+.iniconb {
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    border-radius: 100%;
+    display: inline-block;
+    border: 1px solid green;
+}
+.gmfill {
+    background-color: green;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.gmtri_rd_more,.gmtri_rd_less {
+    font-style: italic;
+}
+@media only screen and (max-width: 650px) and (min-width: 400px){
+    .gmtri_testimonial:before{ border-right: 325px solid transparent; }
+    .gmtri_testimonial:after{ border-left: 325px solid transparent; }
+}
